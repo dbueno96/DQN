@@ -26,11 +26,3 @@ Visualizing the training process can be done using tensorboard by:
 ```
 tensorboard --logdir=out
 ```
-
-### Result after training for 10mio steps (approx. 11 hours on GTX 1080 Ti)
-![Alt Text](https://github.com/marctuscher/dqn/blob/master/assets/breakout_10mio.gif)
-### References
-1. [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow)
-2. [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/pdf/1312.5602.pdf)
-3. [Playing FPS Games with Deep Reinforcement Learning](https://arxiv.org/pdf/1609.05521.pdf)
-4. [Deep Recurrent Q-Learning for Partially Observable MDPs](https://arxiv.org/pdf/1507.06527.pdf)
